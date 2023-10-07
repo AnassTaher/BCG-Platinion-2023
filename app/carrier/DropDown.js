@@ -54,6 +54,7 @@ export function DropDown() {
     }
   }, [qrCodeData])
 
+
   const [ticket, setTicket] = useState(null)
   const [pass, setPass] = useState(passengers[0])
   const handleChange = (selectedOption) => {

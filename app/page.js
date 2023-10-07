@@ -26,16 +26,16 @@ export default function Page() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="flex gap-4">
-        <div className="bg-blue-500 p-8 rounded-lg text-white text-center cursor-pointer hover:bg-blue-600">
-          <Link href="/customer">
+        <Link href="/customer">
+          <div className="bg-blue-500 p-8 rounded-lg text-white text-center cursor-pointer hover:bg-blue-600">
             Customer
-          </Link>
-        </div>
-        <div className="bg-green-500 p-8 rounded-lg text-white text-center cursor-pointer hover:bg-green-600">
-          <Link href="/carrier">
+          </div>
+        </Link>
+        <Link href="/carrier">
+          <div className="bg-green-500 p-8 rounded-lg text-white text-center cursor-pointer hover:bg-green-600">
             Carrier
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
     </div>
   )
