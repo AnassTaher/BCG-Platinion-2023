@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BCG Platinion Hackathon 2023
+> The goal of this project was to prevent missing trains incase of delays of connecting train
+
+> This is a mockup for the UI of the application
 
 ## Getting Started
 
